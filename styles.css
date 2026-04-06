@@ -1,1 +1,80 @@
 /*  your css code here. If applicable */
+/* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 30px;
+        }
+
+        /* Container for the news sections */
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        /* Common card styling */
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        /* Latest News Section */
+        .latest-news-section {
+            width: 20%;
+        }
+
+        /* Main Article Section */
+        .main-article-section {
+            width: 40%;
+            text-align: center;
+        }
+
+        /* Pictorial News Section */
+        .pictorial-news-section {
+            width: 20%;
+            text-align: center;
+        }
+
+        .pictorial-news-section img {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Typography */
+        h2, h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
